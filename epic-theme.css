@@ -1,0 +1,20 @@
+/*
+ * EPIC Theme Tokens
+ * Derived from docs/mohawk-brand-style-guide.md (Mohawk College Brand Identity Guidelines, Nov 2023)
+ * Update these values if the brand guide changes.
+ */
+
+:root {
+  /* Brand colours */
+  --mohawk-charcoal: #333333;
+  --mohawk-burgundy: #660033;
+  --mohawk-crimson: #990033;
+  --mohawk-orange: #ff9933;
+  --mohawk-white: #ffffff;
+
+  /* Semantic tokens used by components */
+  --epic-accent: #990033;        /* Crimson — primary accent */
+  --epic-accent-soft: #660033;   /* Burgundy — secondary/hover accent */
+  --epic-font-display: Verdana, Geneva, sans-serif;
+  --epic-font-body: Verdana, Geneva, sans-serif;
+}
