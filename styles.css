@@ -296,9 +296,10 @@ a:hover {
 
 .section__heading {
   font-family: var(--epic-font-display);
-  font-size: clamp(1.5rem, 3.5vw, 2.25rem);
-  font-weight: 700;
+  font-size: clamp(1.15rem, 2.5vw, 1.5rem);
+  font-weight: 600;
   margin-bottom: 1rem;
+  line-height: 1.35;
 }
 
 .section__subheading {
@@ -389,8 +390,13 @@ a:hover {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  color: var(--mohawk-crimson);
+  color: var(--mohawk-orange);
   margin-bottom: 1rem;
+}
+
+.invest-elig__col p,
+.invest-elig__col li {
+  color: rgba(255, 255, 255, 0.92);
 }
 
 .invest-elig__divider {
