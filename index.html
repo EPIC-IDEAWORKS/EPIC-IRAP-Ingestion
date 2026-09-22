@@ -1,191 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EPIC IRAP Program — Mohawk College</title>
-  <link rel="stylesheet" href="epic-theme.css">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EPIC IRAP Program — Mohawk College</title>
+    <link rel="stylesheet" href="epic-theme.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="site-header">
+      <div class="container">
+        <a href="#" class="site-logo">EPIC <span>IRAP</span></a>
+        <button
+          class="nav-toggle"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <nav>
+          <ul class="nav-list" id="nav-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#streams">Streams</a></li>
+            <li><a href="#eligibility">Eligibility</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-  <!-- Header -->
-  <header class="site-header">
-    <div class="container">
-      <a href="#" class="site-logo">EPIC <span>IRAP</span></a>
-      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-      <nav>
-        <ul class="nav-list" id="nav-list">
+    <!-- 1. Hero -->
+    <section class="hero">
+      <img
+        class="hero__image"
+        src="imgs/PiranhaStudios-MohawkCollege-47.jpg"
+        alt="Team collaborating over project plans at Mohawk College"
+      />
+      <div class="hero__overlay"></div>
+      <div class="container hero__content">
+        <h1 class="hero__title">
+          Energy &amp; Power Innovation Centre at Mohawk College
+        </h1>
+        <a
+          href="https://forms.cloud.microsoft/r/uHh4HHCud5"
+          class="btn btn--primary"
+          >Apply Now</a
+        >
+      </div>
+    </section>
+
+    <!-- 2. Intro row -->
+    <section class="section" id="about">
+      <div class="container row">
+        <div>
+          <h2 class="section__heading" style="color: var(--mohawk-crimson)">
+            Does your business need:
+          </h2>
+          <ul class="bullet-list">
+            <li>
+              A head start on environmental compliance or low-carbon
+              initiatives?
+            </li>
+            <li>To collect and process data to improve efficiency?</li>
+            <li>
+              To analyze electrical systems or products to improve performance
+              or reliability?
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p>
+            Through the Canada Industrial Research Assistance Program (NRC
+            IRAP), we offer organizations access to external technical expertise
+            to advance projects focused on energy efficiency, carbon reduction,
+            operational efficiency, and power systems.
+          </p>
+          <p style="margin-top: 1rem">
+            Energy &amp; Power Innovation Centre (EPIC) implements applied
+            research and sustainability best practices to assess emissions and
+            energy use, identify opportunities to reduce carbon emissions and
+            system inefficiencies, validate electrification strategies, and
+            support long-term, sustainable growth.
+          </p>
+          <p style="margin-top: 1rem">
+            The program is funded by NRC-IRAP and is primarily available to
+            companies within its portfolio across Canada.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Streams 1 & 2: text left | edge-bleed photo right -->
+    <section class="split-row split-row--text-left" id="streams">
+      <div class="split-row__text">
+        <h2 class="section__heading">Available streams:</h2>
+        <div class="stream">
+          <h3>Stream 1: Scope 1, 2 &amp; 3 Emissions Baselining</h3>
+          <p>
+            <strong>Ideal for:</strong> Companies looking to establish a
+            credible starting point for their carbon reduction strategy,
+            including organizations in
+            <strong>manufacturing, construction, and agriculture</strong>.
+          </p>
+          <p style="margin-top: 0.5rem"><strong>We focus on:</strong></p>
+          <ul class="bullet-list">
+            <li>
+              Quantifying Scope 1, 2, and 3 emissions across your operations to
+              establish an accurate baseline.
+            </li>
+            <li>
+              Identifying high-emitting sources and providing tools to track
+              emissions and progress over time.
+            </li>
+          </ul>
+        </div>
+        <div class="stream">
+          <h3>Stream 2: Product Carbon Footprint</h3>
+          <p>
+            <strong>Ideal for:</strong> Companies looking to understand the
+            carbon footprint of their products to support sustainability and
+            product-development decisions.
+          </p>
+          <p style="margin-top: 0.5rem"><strong>We focus on:</strong></p>
+          <ul class="bullet-list">
+            <li>
+              Quantifying the carbon footprint of your product across key
+              life-cycle stages, from raw materials to end-of-life.
+            </li>
+            <li>
+              Identifying emissions hotspots across the product life cycle and
+              recommending strategies to reduce emissions.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="split-row__photo">
+        <img
+          src="imgs/PiranhaStudios-MohawkCollege-31.jpg"
+          alt="Two colleagues discussing work at a workstation"
+        />
+      </div>
+    </section>
+
+    <!-- 4. Streams 3 & 4: edge-bleed photo left | text right -->
+    <section class="split-row split-row--text-right">
+      <div class="split-row__photo">
+        <img
+          src="imgs/PiranhaStudios-MohawkCollege-42.jpg"
+          alt="Hands-on electronics prototyping"
+        />
+      </div>
+      <div class="split-row__text">
+        <div class="stream">
+          <h3>Stream 3: Automated Data Collection &amp; Analysis</h3>
+          <p>
+            <strong>Ideal for:</strong> Facilities or processes that require
+            automated data collection to improve reporting, operational
+            efficiency, or product performance.
+          </p>
+          <p style="margin-top: 0.5rem"><strong>We focus on:</strong></p>
+          <ul class="bullet-list">
+            <li>
+              Implementing process data collection systems, including hardware
+              and software interfaces.
+            </li>
+            <li>
+              Implementing utility submetering to support energy-efficiency
+              initiatives and reduce electrical system costs, including global
+              adjustment costs.
+            </li>
+          </ul>
+        </div>
+        <div class="stream">
+          <h3>Stream 4: Power Systems Analysis &amp; Proof-of-Concept</h3>
+          <p>
+            <strong>Ideal for:</strong> Companies working with or interacting
+            with electrical power systems that need to collect and analyze data
+            from utility-grade equipment or require advanced, time-based power
+            systems monitoring.
+          </p>
+          <p style="margin-top: 0.5rem"><strong>We focus on:</strong></p>
+          <ul class="bullet-list">
+            <li>
+              Temporarily installing power systems monitoring equipment to
+              identify cleantech opportunities, quantify system performance, and
+              support operational improvements.
+            </li>
+            <li>
+              Providing power systems commissioning support related to
+              protection and control and SCADA systems, particularly for
+              distributed energy resources and generation.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Timeline -->
+    <section class="section section--centered" id="eligibility">
+      <div class="container">
+        <h2 class="section__heading">Application Timeline</h2>
+        <p>Applications are accepted on a rolling basis.</p>
+        <ul class="date-list">
+          <li>
+            <strong
+              >Project start dates are between October 2026 and January
+              2027</strong
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 6. Investment & Eligibility -->
+    <section class="section section--dark invest-elig">
+      <div class="container">
+        <div class="invest-elig__row">
+          <div class="invest-elig__col">
+            <h2 class="invest-elig__heading">Investment</h2>
+            <p>
+              The program offers approximately 120 hours of work. The
+              expectation is that companies invest 6–8 hours of their time
+              throughout the process.
+            </p>
+            <p style="margin-top: 1rem">
+              For IRAP clients, participation in this project is funded by IRAP.
+            </p>
+          </div>
+          <div class="invest-elig__divider"></div>
+          <div class="invest-elig__col">
+            <h2 class="invest-elig__heading">Eligibility Criteria</h2>
+            <p>
+              Small and medium-sized enterprises (SMEs) who meet the following
+              criteria will be considered for this service:
+            </p>
+            <ul class="bullet-list" style="margin-top: 0.75rem">
+              <li>The firm is an IRAP-client in good standing</li>
+              <li>
+                The firm has a sustainability goal related to EPIC's expertise
+              </li>
+            </ul>
+            <p style="margin-top: 1.25rem">
+              <strong>Not an IRAP client?</strong>
+            </p>
+            <p>
+              There are still ways to work with us! We encourage you to apply,
+              and we will follow up with alternative ways to collaborate that
+              may suit your business.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. CTA -->
+    <section class="section section--burgundy cta-section" id="contact">
+      <div class="container">
+        <h2 class="section__heading">Interested?</h2>
+        <p>
+          We are currently accepting rolling applications and have limited
+          capacity. All interested companies must fill out our application form
+          to be considered for participation.
+        </p>
+        <a
+          href="https://forms.cloud.microsoft/r/uHh4HHCud5"
+          class="btn btn--outline"
+          >Apply Now</a
+        >
+        <p style="margin-top: 1.5rem; font-size: 0.9rem; opacity: 0.8">
+          Still have questions?
+          <a href="mailto:epic@mohawkcollege.ca">Contact us</a>
+        </p>
+        <p style="margin-top: 0.75rem; font-size: 0.9rem; opacity: 0.8">
+          <a
+            href="https://ideaworks.mohawkcollege.ca/research-centre/energy-power-innovation-centre-epic/"
+            >Learn more about EPIC</a
+          >
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div>
+          <span>&copy; 2026 EPIC &mdash; Mohawk College</span>
+          <span class="photo-credit">Photography by Piranha Studios</span>
+        </div>
+        <ul class="footer-links">
           <li><a href="#about">About</a></li>
           <li><a href="#streams">Streams</a></li>
-          <li><a href="#eligibility">Eligibility</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-      </nav>
-    </div>
-  </header>
-
-  <!-- 1. Hero -->
-  <section class="hero">
-    <img class="hero__image" src="imgs/PiranhaStudios-MohawkCollege-47.jpg" alt="Team collaborating over project plans at Mohawk College">
-    <div class="hero__overlay"></div>
-    <div class="container hero__content">
-      <h1 class="hero__title">Energy &amp; Power Innovation Centre at Mohawk College</h1>
-      <a href="https://forms.cloud.microsoft/r/uHh4HHCud5" class="btn btn--primary">Apply Now</a>
-    </div>
-  </section>
-
-  <!-- 2. Intro row -->
-  <section class="section" id="about">
-    <div class="container row">
-      <div>
-        <h2 class="section__heading" style="color: var(--mohawk-crimson);">Does your business need:</h2>
-        <ul class="bullet-list">
-          <li>A head start on environmental compliance or low-carbon initiatives?</li>
-          <li>To collect and process data to improve efficiency?</li>
-          <li>To analyze electrical systems or products to improve performance or reliability?</li>
-        </ul>
       </div>
-      <div>
-        <p>
-          Through the Canada Industrial Research Assistance Program (NRC IRAP), we offer organizations access to external technical expertise to advance projects focused on energy efficiency, carbon reduction, operational efficiency, and power systems.
-        </p>
-        <p style="margin-top: 1rem;">
-          Energy &amp; Power Innovation Centre (EPIC) implements applied research and sustainability best practices to assess emissions and energy use, identify opportunities to reduce carbon emissions and system inefficiencies, validate electrification strategies, and support long-term, sustainable growth.
-        </p>
-        <p style="margin-top: 1rem;">
-          The program is funded by NRC-IRAP and is primarily available to companies within its portfolio across Canada.
-        </p>
-      </div>
-    </div>
-  </section>
+    </footer>
 
-  <!-- 3. Streams 1 & 2: text left | edge-bleed photo right -->
-  <section class="split-row split-row--text-left" id="streams">
-    <div class="split-row__text">
-      <h2 class="section__heading">Available streams:</h2>
-      <div class="stream">
-        <h3>Stream 1: Scope 1, 2 &amp; 3 Emissions Baselining</h3>
-        <p><strong>Ideal for:</strong> Companies looking to establish a credible starting point for their carbon reduction strategy, including organizations in <strong>manufacturing, construction, and agriculture</strong>.</p>
-        <p style="margin-top: 0.5rem;"><strong>We focus on:</strong></p>
-        <ul class="bullet-list">
-          <li>Quantifying Scope 1, 2, and 3 emissions across your operations to establish an accurate baseline.</li>
-          <li>Identifying high-emitting sources and providing tools to track emissions and progress over time.</li>
-        </ul>
-      </div>
-      <div class="stream">
-        <h3>Stream 2: Product Carbon Footprint</h3>
-        <p><strong>Ideal for:</strong> Companies looking to understand the carbon footprint of their products to support sustainability and product-development decisions.</p>
-        <p style="margin-top: 0.5rem;"><strong>We focus on:</strong></p>
-        <ul class="bullet-list">
-          <li>Quantifying the carbon footprint of your product across key life-cycle stages, from raw materials to end-of-life.</li>
-          <li>Identifying emissions hotspots across the product life cycle and recommending strategies to reduce emissions.</li>
-        </ul>
-      </div>
-    </div>
-    <div class="split-row__photo">
-      <img src="imgs/PiranhaStudios-MohawkCollege-31.jpg" alt="Two colleagues discussing work at a workstation">
-    </div>
-  </section>
-
-  <!-- 4. Streams 3 & 4: edge-bleed photo left | text right -->
-  <section class="split-row split-row--text-right">
-    <div class="split-row__photo">
-      <img src="imgs/PiranhaStudios-MohawkCollege-42.jpg" alt="Hands-on electronics prototyping">
-    </div>
-    <div class="split-row__text">
-      <div class="stream">
-        <h3>Stream 3: Automated Data Collection &amp; Analysis</h3>
-        <p><strong>Ideal for:</strong> Facilities or processes that require automated data collection to improve reporting, operational efficiency, or product performance.</p>
-        <p style="margin-top: 0.5rem;"><strong>We focus on:</strong></p>
-        <ul class="bullet-list">
-          <li>Implementing process data collection systems, including hardware and software interfaces.</li>
-          <li>Implementing utility submetering to support energy-efficiency initiatives and reduce electrical system costs, including global adjustment costs.</li>
-        </ul>
-      </div>
-      <div class="stream">
-        <h3>Stream 4: Power Systems Analysis &amp; Proof-of-Concept</h3>
-        <p><strong>Ideal for:</strong> Companies working with or interacting with electrical power systems that need to collect and analyze data from utility-grade equipment or require advanced, time-based power systems monitoring.</p>
-        <p style="margin-top: 0.5rem;"><strong>We focus on:</strong></p>
-        <ul class="bullet-list">
-          <li>Temporarily installing power systems monitoring equipment to identify cleantech opportunities, quantify system performance, and support operational improvements.</li>
-          <li>Providing power systems commissioning support related to protection and control and SCADA systems, particularly for distributed energy resources and generation.</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- 5. Timeline -->
-  <section class="section section--centered" id="eligibility">
-    <div class="container">
-      <h2 class="section__heading">Application Timeline</h2>
-      <p>Applications are accepted on a rolling basis.</p>
-      <ul class="date-list">
-        <li><strong>Estimated Cohort Dates:</strong> October 2026 &amp; January 2027</li>
-        <li><strong>Project start dates are between October 2026 and January 2027</strong></li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- 6. Investment & Eligibility -->
-  <section class="section section--dark invest-elig">
-    <div class="container">
-      <div class="invest-elig__row">
-        <div class="invest-elig__col">
-          <h2 class="invest-elig__heading">Investment</h2>
-          <p>The program offers approximately 120 hours of work. The expectation is that companies invest 6–8 hours of their time throughout the process.</p>
-          <p style="margin-top: 1rem;">For IRAP clients, participation in this project is funded by IRAP.</p>
-        </div>
-        <div class="invest-elig__divider"></div>
-        <div class="invest-elig__col">
-          <h2 class="invest-elig__heading">Eligibility Criteria</h2>
-          <p>Small and medium-sized enterprises (SMEs) who meet the following criteria will be considered for this service:</p>
-          <ul class="bullet-list" style="margin-top: 0.75rem;">
-            <li>The firm is an IRAP-client in good standing</li>
-            <li>The firm has a sustainability goal related to EPIC's expertise</li>
-          </ul>
-          <p style="margin-top: 1.25rem;"><strong>Not an IRAP client?</strong></p>
-          <p>There are still ways to work with us! We encourage you to apply, and we will follow up with alternative ways to collaborate that may suit your business.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- 7. CTA -->
-  <section class="section section--burgundy cta-section" id="contact">
-    <div class="container">
-      <h2 class="section__heading">Interested?</h2>
-      <p>
-        We are currently accepting rolling applications and have limited capacity.
-        All interested companies must fill out our application form to be considered for participation.
-      </p>
-      <a href="https://forms.cloud.microsoft/r/uHh4HHCud5" class="btn btn--outline">Apply Now</a>
-      <p style="margin-top: 1.5rem; font-size: 0.9rem; opacity: 0.8;">
-        Still have questions? <a href="mailto:epic@mohawkcollege.ca">Contact us</a>
-      </p>
-      <p style="margin-top: 0.75rem; font-size: 0.9rem; opacity: 0.8;">
-        <a href="https://ideaworks.mohawkcollege.ca/research-centre/energy-power-innovation-centre-epic/">Learn more about EPIC</a>
-      </p>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="site-footer">
-    <div class="container">
-      <div>
-        <span>&copy; 2026 EPIC &mdash; Mohawk College</span>
-        <span class="photo-credit">Photography by Piranha Studios</span>
-      </div>
-      <ul class="footer-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#streams">Streams</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </footer>
-
-  <script src="main.js"></script>
-</body>
+    <script src="main.js"></script>
+  </body>
 </html>
