@@ -151,14 +151,10 @@ a:hover {
 
 .site-logo {
   font-family: var(--epic-font-display);
-  font-size: 1.25rem;
+  font-size: 0.95rem;
   font-weight: 700;
   color: var(--mohawk-charcoal);
-  letter-spacing: 0.05em;
-}
-
-.site-logo span {
-  color: var(--mohawk-crimson);
+  letter-spacing: 0.03em;
 }
 
 .nav-toggle {
@@ -233,7 +229,13 @@ a:hover {
 .hero__content {
   position: relative;
   z-index: 1;
-  max-width: 700px;
+  max-width: 900px;
+}
+
+.hero__logo {
+  max-width: 320px;
+  height: auto;
+  margin-bottom: 1.5rem;
 }
 
 .hero__title {
